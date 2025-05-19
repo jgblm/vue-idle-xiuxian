@@ -30,7 +30,7 @@ watch(() => playerStore.isNewPlayer, (bool) => {
 })
 
 // 灵力获取相关配置
-const baseGainRate = 1  // 基础灵力获取率
+const baseGainRate = 10000  // 基础灵力获取率
 
 const getMenuOptions = () => {
   menuOptions.value = [,
